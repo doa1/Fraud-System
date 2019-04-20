@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(172, 183, 255)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="emp_nameLabel">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>90</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 31, 94);
+font: 75 15pt \&quot;Century Schoolbook L\&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter Employeee Full Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="emp_IdLabel">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>150</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 31, 94);
+font: 75 15pt \&quot;Century Schoolbook L\&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter Employee Id (Reg/No):</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="emp_EmailLabel">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>220</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 31, 94);
+font: 75 15pt \&quot;Century Schoolbook L\&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter Your Email Address:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passLabel">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>300</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 31, 94);
+font: 75 15pt \&quot;Century Schoolbook L\&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter Your Password :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passConfLabel">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>380</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 31, 94);
+font: 75 15pt \&quot;Century Schoolbook L\&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter Password Confirmation :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passConfField">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>370</y>
+      <width>271</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(237, 255, 254)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emp_nameField">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>80</y>
+      <width>271</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(237, 255, 254);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emp_IdField">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>140</y>
+      <width>271</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(237, 255, 254)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emp_EmailField">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>220</y>
+      <width>271</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(237, 255, 254)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passField">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>300</y>
+      <width>271</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(237, 255, 254)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="resetBtn">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>450</y>
+      <width>93</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(220, 231, 255);
+font: 75 15pt \&quot;Century Schoolbook L\&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="signupBtn">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>450</y>
+      <width>93</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(220, 231, 255);
+font: 75 15pt \&quot;Century Schoolbook L\&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_label">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>90</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>icon</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="date_label">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>9</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 247, 185);
+font: 15pt &quot;Latin Modern Roman Slanted&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Date Time</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
